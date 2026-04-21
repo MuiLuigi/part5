@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Test Suite">
+
+    <test name="Fahad Arif Test Cases">
+        <classes>
+            <class name="tests.fahad.FahadTests"/>
+        </classes>
+    </test>
+
+    <test name="Musa Jama Test Cases">
+        <classes>
+            <class name="tests.musa.MusaTests"/>
+        </classes>
+    </test>
+
+    <test name="Nicholas Carreiro Test Cases">
+        <classes>
+            <class name="tests.nicholas.NicholasTests"/>
+        </classes>
+    </test>
+
+</suite>
