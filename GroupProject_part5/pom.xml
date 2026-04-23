@@ -14,6 +14,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <suite name="OrangeHRM Tests">
+        <test name="All Tests">
+            <classes>
+                <class name="tests.fahad.FahadTests"/>
+                <class name="tests.musa.MusaTests"/>
+                <class name="tests.nicholas.NicholasTests"/>
+            </classes>
+        </test>
+    </suite>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
